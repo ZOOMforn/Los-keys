@@ -6,7 +6,7 @@ const { Pool } = require('pg');
 const config = {
     token: process.env.DISCORD_TOKEN || 'SEU_TOKEN_DO_BOT',
     port: process.env.PORT || 3000,
-    databaseUrl: process.env.DATABASE_URL || 'postgresql://user:password@localhost/keys_db'
+    databaseUrl: process.env.DATABASE_URL || 'postgresql://admin:WtUwz4Jp11N4aAZ2Y2wttD2UOyNgP9Zx@dpg-d3iqh08gjchc73ehqkr0-a/keysdb_rzhd'
 };
 
 const pool = new Pool({
